@@ -3,10 +3,10 @@ import './App.css'
 import NumBall from "./components/NumBall/NumBall";
 
 function App() {
-    const [numbers, setNumbers] = useState<number[]>([5, 11, 16, 23, 32])
+    const [numbers, setNumbers] = useState<number[]>([5, 11, 16, 23, 32]);
 
     const getRandNumbers = () => {
-        let newNumbers: number[] = [];
+        const newNumbers: number[] = [];
         while (newNumbers.length < numbers.length) {
             const newNumber: number = Math.floor(Math.random() * (37 - 5) + 5);
             let check: boolean = false;
@@ -23,7 +23,7 @@ function App() {
             }
         }
         setNumbers(newNumbers.sort((a, b) => {
-            return a - b
+            return a - b;
         }));
     }
     return (
@@ -38,4 +38,4 @@ function App() {
     )
 }
 
-export default App
+export default App;
