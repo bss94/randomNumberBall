@@ -1,8 +1,10 @@
-import 'NumBall.css'
+import './NumBall.css'
+
 interface Props {
     number: number;
 }
-const NumBall = (props:Props) => {
+
+const NumBall = (props: Props) => {
     return (
         <div>
             <div className='ball'>
