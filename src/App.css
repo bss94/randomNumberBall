@@ -1,19 +1,19 @@
 #root {
-    max-width: 1280px;
-    margin: 20px auto;
-    padding: 2rem;
-    text-align: center;
+  max-width: 1280px;
+  margin: 20px auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 .num-ball {
-    min-width: 900px;
-    margin: 50px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  min-width: 900px;
+  margin: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .num-btn {
-    background-color: rgba(6, 110, 253, 0.79);
-    color: white;
+  background-color: rgba(6, 110, 253, 0.79);
+  color: white;
 }
